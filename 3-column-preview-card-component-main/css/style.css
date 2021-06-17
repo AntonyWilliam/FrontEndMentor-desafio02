@@ -28,7 +28,7 @@ h1{
     padding: 55px;
     color: hsla(0, 0%, 100%, 0.75);
     height: 440px;
-    width: 220px;
+    width: 210px;
     margin: 0px;
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -52,7 +52,7 @@ button{
 }
 footer{
     position: relative;
-    top: 130px;
+    top: 100px;
 }
 
 
