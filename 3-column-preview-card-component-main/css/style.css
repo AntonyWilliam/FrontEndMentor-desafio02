@@ -1,0 +1,113 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+main{
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+h1{
+    font-size: 44px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.card{
+    letter-spacing: 3px;
+    padding: 55px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 470px;
+    width: 240px;
+    margin: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+button{
+    font-size: large;
+    border-radius: 30px;
+    height: 55px;
+    width: 170px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+footer{
+    position: relative;
+    top: 130px;
+}
+
+
+#button1{
+    color: hsl(31, 77%, 52%);
+}
+
+#button1:hover{
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#button2{
+    color: hsl(184, 100%, 22%);
+}
+
+#button2:hover{
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+#button3{
+    color: hsl(179, 100%, 13%);
+}
+
+#button3:hover{
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+#credit{
+    text-align: center;
+}
+
+@media(max-width:375px) {
+
+    main{
+        border-radius: 10px;
+        overflow: hidden;
+        width: 375px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    #sedans{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    #luxury{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+}
