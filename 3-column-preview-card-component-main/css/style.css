@@ -12,7 +12,7 @@ body{
     font-size: 15px;
 }
 main{
-    border-radius: 10px;
+    border-radius: 12px;
     overflow: hidden;
     width: fit-content;
     height: fit-content;
