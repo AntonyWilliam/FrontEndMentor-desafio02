@@ -4,8 +4,12 @@
 
 body{
     background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
-    width:  1440px;
 }
 main{
     border-radius: 10px;
@@ -14,8 +18,6 @@ main{
     height: fit-content;
     display: flex;
     align-items: center;
-    margin: auto;
-    margin-top: 150px;
 
 }
 
@@ -51,7 +53,7 @@ button{
     border-color: white;
     background-color: white;
 }
-footer{
+.footerCard{
     position: relative;
     top: 100px;
 }
